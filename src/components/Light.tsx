@@ -6,12 +6,8 @@
  /** some comment about my light components */
  const Light = ({variant='green'}: Props) => {
    return (
-     <div 
-    style={{
-    background:variant,
-borderRadius: "50%",
-width:20,height:20}}
-     ></div>
+     <div  className= {`bg-${variant}-400  rounded-3xl w-5 h-5 `}
+     >hello</div>
    )
  }
 

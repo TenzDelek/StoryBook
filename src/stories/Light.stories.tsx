@@ -39,15 +39,8 @@ export const Green:Story ={
 /**thats the base main one */
 export const Another:Story={
 
-    render:(args) => <div style={{
-        display:'flex',
-        background:'gray',
-        flexDirection:'column',
-        gap:10,
-        border:'2px solid black',
-        width: "max-content",
-        padding:10
-    }}>
+    render:(args) => <div className=" w-max p-10 flex flex-col bg-gray-700 gap-10 border-2 border-black"
+        >
         <Light variant="red" />
         <Light variant="yellow" />
         <Light {...args} />
